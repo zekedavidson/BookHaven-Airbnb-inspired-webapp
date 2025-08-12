@@ -1,0 +1,56 @@
+<style>
+  .btn-search{
+    background-color: #fe424d;
+    color: white;
+    border-radius: 2rem;
+  }
+  .btn-search:hover{
+    background-color: #fe424d;
+    color: white;
+  }
+
+  .btn-search i{
+    display: inline;
+    margin-right: 0.5rem;
+  }
+
+  .search-bar{
+    border-radius: 2rem !important;
+    padding: 0.5rem 4rem 0.5rem 4rem;
+    font-size: 1rem;
+  }
+</style>
+<nav class="navbar navbar-expand-md bg-body-light border-bottom sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/listings"><i class="fa-solid fa-snowflake"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav navbar nav-brand">
+          <a class="nav-link" href="/listings">BookHaven</a>
+        </div>
+        <div class="navbar-nav navbar">
+          <a class="nav-link" href="/listings">Explore</a>
+        </div>
+        <div class="navbar-nav ms-auto">
+            <div class="container-fluid">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2 search-bar" type="search" placeholder="Search  desitnations"/>
+                <button class="btn btn-search" type="submit"><i class="fa-solid fa-magnifying-glass"></i>Search</button>
+              </form>
+            </div>
+        </div>
+        <div class="navbar-nav ms-auto navbar">
+          <a class="nav-link" href="/listings/new">Become a host</a>
+          <% if(!currUser){ %>
+            <a class="nav-link" href="/signup"><b>SignUp</b></a>
+            <a class="nav-link" href="/login"><b>Login</b></a>
+          <%  } %>
+          <% if(currUser){ %>
+          <a class="nav-link" href="/logout">Logout</a>
+          <%  } %>
+        </div>
+      </div>
+    </div>
+  </nav>
