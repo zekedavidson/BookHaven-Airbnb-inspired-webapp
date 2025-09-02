@@ -151,3 +151,49 @@ body{
     height: 400px;
     width: 80vh;
 }
+
+/* Home Page */
+
+.bookhaven-title{
+    height: 95vh;
+    display: flex;            
+    justify-content: center;  
+    align-items: center;   
+    flex-direction: column;
+    /* padding-top: 20vh; */
+}
+
+.title-row{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.bookhaven-title h1{
+    color: #fe424d;
+    font-size: 8rem;            
+    font-weight: bold;          
+    text-align: center;   
+    z-index: 2;
+    margin: 0;
+}
+
+.bookhaven-title h2{
+    color: #222222;
+    font-size:5rem;            
+    font-weight: bold;          
+    text-align: center;
+    z-index: 2;   
+    margin: 0;
+}
+
+.start-btn-form{
+    margin-top: 0;
+}
+.start-btn{
+        background-color: #fe424d !important;
+        border: none !important;
+        border-radius: 30px !important;
+}
+
