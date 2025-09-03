@@ -84,3 +84,50 @@ module.exports.destroyListing = async(req, res) => {
     req.flash("success", "Listing Deleted!");
     res.redirect("/listings");
 };
+
+// Category: 
+// Trending
+module.exports.trending = async (req, res) => {
+    const listings = await Listing.find({ category: "Trending" });
+    res.render("./categories/trending.ejs", { listings });
+};
+// Rooms
+module.exports.rooms = async (req, res) => {
+    const listings = await Listing.find({ category: "Rooms" });
+    res.render("./categories/rooms.ejs", { listings });
+};
+//Mountains
+module.exports.mountains = async (req, res) => {
+    const listings = await Listing.find({ category: "Mountains" });
+    res.render("./categories/mountains.ejs", { listings });
+};
+//Iconic Cities
+module.exports.iconic = async (req, res) => {
+    const listings = await Listing.find({ category: "Iconic Cities" });
+    res.render("./categories/iconic.ejs", { listings });
+};
+//Cabins
+module.exports.cabins = async (req, res) => {
+    const listings = await Listing.find({ category: "Cabins" });
+    res.render("./categories/cabins.ejs", { listings });
+};
+//Beach
+module.exports.beach = async (req, res) => {
+    const listings = await Listing.find({ category: "Beach" });
+    res.render("./categories/beach.ejs", { listings });
+};
+//Camping
+module.exports.camping = async (req, res) => {
+    const listings = await Listing.find({ category: "Camping" });
+    res.render("./categories/camping.ejs", { listings });
+};
+//Adventure
+module.exports.adventure = async (req, res) => {
+    const listings = await Listing.find({ category: "Adventure" });
+    res.render("./categories/adventure.ejs", { listings });
+};
+//Villas
+module.exports.villas = async (req, res) => {
+    const listings = await Listing.find({ category: "Villas" });
+    res.render("./categories/villas.ejs", { listings });
+};

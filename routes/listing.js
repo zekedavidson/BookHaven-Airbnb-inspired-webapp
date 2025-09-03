@@ -15,6 +15,17 @@ router
 //New Route
 router.get("/new", isLoggedIn, listingController.renderNewForm);
 
+// Category Routes
+router.get("/categories/trending", wrapAsync(listingController.trending));
+router.get("/categories/rooms", wrapAsync(listingController.rooms));
+router.get("/categories/mountains", wrapAsync(listingController.mountains));
+router.get("/categories/cabins", wrapAsync(listingController.cabins));
+router.get("/categories/beach", wrapAsync(listingController.beach));
+router.get("/categories/camping", wrapAsync(listingController.camping));
+router.get("/categories/villas", wrapAsync(listingController.villas));
+router.get("/categories/adventure", wrapAsync(listingController.adventure));
+router.get("/categories/iconic", wrapAsync(listingController.iconic));
+
 router
     .route("/:id")
     .get(wrapAsync(listingController.showListing))

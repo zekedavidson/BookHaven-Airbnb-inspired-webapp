@@ -2,80 +2,51 @@
 <body>
     <div class="mt-3">
     <!-- <h3>All Listings</h3> -->
-     <style>
-        #filters{
-          display: flex;
-          flex-wrap: wrap;
-          align-items: center;
-        }
-
-        .filter{
-          text-align: center;
-          margin-right: 3rem;
-          margin-top: 1rem;
-          opacity: 0.8;
-        }
-
-        .filter:hover{
-          opacity: 1;
-          cursor: pointer;
-        }
-
-        .filter p{
-          font-size: 0.9rem;
-        }
-
-        .tax-info{
-          display:none;
-        }
-
-        .tax-toggle{
-          border: 1px solid black;
-          border-radius: 1rem;
-          height: 2.5rem;
-          padding: 1rem;
-          margin-left: 3rem;
-          align-items: center;
-          display: flex;
-        }
-
-     </style>
-    <div id="filters">
+    <div id="filters" class="fiter-icons">
       <div class="filter">
+        <a class="nav-link" href="/listings/categories/trending">
         <div><i class="fa-solid fa-fire"></i></div>
-        <p>Trending</p>
+        <p>Trending</p></a>
       </div>
       <div class="filter">
+        <a class="nav-link" href="/listings/categories/rooms">
         <div><i class="fa-solid fa-bed"></i></div>
-        <p>Rooms</p>
+        <p>Rooms</p></a>
       </div>
       <div class="filter">
+        <a class="nav-link" href="/listings/categories/iconic">
         <div><i class="fa-solid fa-mountain-city"></i></div>
-        <p>Iconic Cities</p>
+        <p>Iconic Cities</p></a>
       </div>
       <div class="filter">
+        <a class="nav-link" href="/listings/categories/mountains">
         <div><i class="fa-solid fa-mountain"></i></div>
-        <p>Mountains</p>
+        <p>Mountains</p></a>
       </div>
       <div class="filter">
+        <a class="nav-link" href="/listings/categories/cabins">
         <div><i class="fa-solid fa-house-chimney"></i></div>
-        <p>Cabins</p>
+        <p>Cabins</p></a>
       </div>
       <div class="filter">
-        <div><i class="fa-solid fa-umbrella-beach"></i></div>
-        <p>Beach</p>
+        <a class="nav-link" href="/listings/categories/beach">
+        <div><i class="fa-solid fa-house"></i></div>
+        <p>Beach</p></a>
       </div>
       <div class="filter">
+        <a class="nav-link" href="/listings/categories/camping">
         <div><i class="fa-solid fa-campground"></i></div>
-        <p>Camping</p>
+        <p>Camping</p></a>
       </div>
       <div class="filter">
+        <a class="nav-link" href="/listings/categories/villas">
         <div><i class="fa-solid fa-house-chimney"></i></div>
-        <p>Cabins</p>
+        <p>Villas</p></a>
       </div>
       <div class="filter">
+        <a class="nav-link" href="/listings/categories/adventure">
         <div><i class="fa-solid fa-binoculars"></i></div>
-        <p>Adventure</p>
+        <p>Adventure</p></a>
       </div>
       <div class="tax-toggle">
         <div class="form-check-reverse form-switch">

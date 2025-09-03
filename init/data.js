@@ -13,7 +13,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [-118.4912, 34.0259]
-    }
+    },
+    category: "Beach"
   },
   {
     title: "Modern Loft in Downtown",
@@ -29,7 +30,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [-74.0060, 40.7128]
-    }
+    },
+    category: "Iconic Cities"
   },
   {
     title: "Mountain Retreat",
@@ -45,7 +47,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [-106.8234, 39.1911]
-    }
+    },
+    category: "Mountains"
   },
   {
     title: "Historic Villa in Tuscany",
@@ -61,7 +64,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [11.2558, 43.7696]
-    }
+    },
+    category: "Iconic Cities"
   },
   {
     title: "Secluded Treehouse Getaway",
@@ -77,7 +81,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [-122.6765, 45.5152]
-    }
+    },
+    category: "Adventure"
   },
   {
     title: "Beachfront Paradise",
@@ -93,7 +98,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [-86.8515, 21.1743]
-    }
+    },
+    category: "Beach"
   },
   {
     title: "Rustic Cabin by the Lake",
@@ -109,7 +115,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [-120.0324, 39.0968]
-    }
+    },
+    category: "Cabins"
   },
   {
     title: "Luxury Penthouse with City Views",
@@ -125,7 +132,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [-118.2437, 34.0522]
-    }
+    },
+    category: "Iconic Cities"
   },
   {
     title: "Ski-In/Ski-Out Chalet",
@@ -141,7 +149,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [7.2266, 46.0965]
-    }
+    },
+    category: "Mountains"
   },
   {
     title: "Safari Lodge in the Serengeti",
@@ -157,7 +166,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [34.8233, -2.3333]
-    }
+    },
+    category: "Adventure"
   },
   {
     title: "Historic Canal House",
@@ -173,7 +183,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [4.9041, 52.3676]
-    }
+    },
+    category: "Iconic Cities"
   },
   {
     title: "Private Island Retreat",
@@ -189,7 +200,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [179.0123, -16.5782]
-    }
+    },
+    category: "Trending"
   },
   {
     title: "Charming Cottage in the Cotswolds",
@@ -205,7 +217,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [-1.7201, 51.833]
-    }
+    },
+    category: "Cabins"
   },
   {
     title: "Historic Brownstone in Boston",
@@ -221,7 +234,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [-71.0589, 42.3601]
-    }
+    },
+    category: "Iconic Cities"
   },
   {
     title: "Beachfront Bungalow in Bali",
@@ -237,7 +251,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [115.1889, -8.4095]
-    }
+    },
+    category: "Beach"
   },
   {
     title: "Mountain View Cabin in Banff",
@@ -253,7 +268,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [-115.5708, 51.1784]
-    }
+    },
+    category: "Mountains"
   },
   {
     title: "Art Deco Apartment in Miami",
@@ -269,7 +285,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [-80.1918, 25.7617]
-    }
+    },
+    category: "Beach"
   },
   {
     title: "Tropical Villa in Phuket",
@@ -285,7 +302,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [98.3923, 7.8804]
-    }
+    },
+    category: "Beach"
   },
   {
     title: "Historic Castle in Scotland",
@@ -301,7 +319,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [-4.2026, 57.12]
-    }
+    },
+    category: "Mountains"
   },
   {
     title: "Desert Oasis in Dubai",
@@ -317,7 +336,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [55.2708, 25.2048]
-    }
+    },
+    category: "Trending"
   },
   {
     title: "Rustic Log Cabin in Montana",
@@ -333,7 +353,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [-110.3626, 46.8797]
-    }
+    },
+    category: "Cabins"
   },
   {
     title: "Beachfront Villa in Greece",
@@ -349,7 +370,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [25.3289, 37.4467]
-    }
+    },
+    category: "Beach"
   },
   {
     title: "Eco-Friendly Treehouse Retreat",
@@ -365,7 +387,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [-84.0739, 9.7489]
-    }
+    },
+    category: "Adventure"
   },
   {
     title: "Historic Cottage in Charleston",
@@ -381,7 +404,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [-79.9311, 32.7765]
-    }
+    },
+    category: "Iconic Cities"
   },
   {
     title: "Modern Apartment in Tokyo",
@@ -397,7 +421,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [139.6917, 35.6895]
-    }
+    },
+    category: "Iconic Cities"
   },
   {
     title: "Lakefront Cabin in New Hampshire",
@@ -413,7 +438,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [-71.5724, 43.1939]
-    }
+    },
+    category: "Cabins"
   },
   {
     title: "Luxury Villa in the Maldives",
@@ -429,7 +455,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [73.2207, 3.2028]
-    }
+    },
+    category: "Trending"
   },
   {
     title: "Ski Chalet in Aspen",
@@ -445,7 +472,8 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [-106.8234, 39.1911]
-    }
+    },
+    category: "Mountains"
   },
   {
     title: "Secluded Beach House in Costa Rica",
@@ -461,8 +489,111 @@ const sampleListings = [
     geometry: {
       type: "Point",
       coordinates: [-84.0739, 9.7489]
-    }
+    },
+    category: "Beach"
   },
+  {
+    title: "Luxury Hotel Suite in Paris",
+    description:
+      "Experience the elegance of Paris in this luxurious hotel suite with stunning city views and premium amenities.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG90ZWxzfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+    },
+    price: 2800,
+    location: "Paris",
+    country: "France",
+    geometry: {
+      type: "Point",
+      coordinates: [2.3522, 48.8566]
+    },
+    category: "Rooms"
+  },
+  {
+    title: "Boutique Hotel Room in London",
+    description:
+      "Stay in style at this boutique hotel room in the heart of London with modern amenities and classic British charm.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aG90ZWxzfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+    },
+    price: 2200,
+    location: "London",
+    country: "United Kingdom",
+    geometry: {
+      type: "Point",
+      coordinates: [-0.1276, 51.5074]
+    },
+    category: "Rooms"
+  },
+  {
+    title: "Glamping Tent in Yosemite",
+    description:
+      "Experience luxury camping in this spacious glamping tent with all the comforts of home in the heart of Yosemite.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FtcGluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    },
+    price: 800,
+    location: "Yosemite National Park",
+    country: "United States",
+    geometry: {
+      type: "Point",
+      coordinates: [-119.5383, 37.8651]
+    },
+    category: "Camping"
+  },
+  {
+    title: "Rustic Camping in Yellowstone",
+    description:
+      "Get back to nature with this authentic camping experience in Yellowstone National Park surrounded by wildlife.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1602391833977-358a52198938?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGNhbXBpbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60",
+    },
+    price: 600,
+    location: "Yellowstone National Park",
+    country: "United States",
+    geometry: {
+      type: "Point",
+      coordinates: [-110.5885, 44.4280]
+    },
+    category: "Camping"
+  },
+  {
+    title: "Luxury Villa in Tuscany",
+    description:
+      "Indulge in the ultimate Italian experience in this stunning luxury villa with panoramic views of the Tuscan countryside.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dmlsbGF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60",
+    },
+    price: 4000,
+    location: "Tuscany",
+    country: "Italy",
+    geometry: {
+      type: "Point",
+      coordinates: [11.2558, 43.7696]
+    },
+    category: "Villas"
+  },
+  {
+    title: "Mediterranean Villa in Santorini",
+    description:
+      "Wake up to breathtaking views of the Aegean Sea in this beautiful Mediterranean villa with a private infinity pool.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1470165301023-58dab8118cc9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGxvZGdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+    },
+    price: 3500,
+    location: "Santorini",
+    country: "Greece",
+    geometry: {
+      type: "Point",
+      coordinates: [25.4615, 36.3932]
+    },
+    category: "Villas"
+  }
 ];
 
 module.exports = { data: sampleListings };
