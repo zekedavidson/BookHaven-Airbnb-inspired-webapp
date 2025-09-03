@@ -21,6 +21,22 @@
             <label for="image" class="form-label">Upload Image</label>
             <input name="listing[image]" type="file" class="form-control" required>
         </div>
+        <!-- Category -->
+        <div class="mb-3 col-md-4">
+            <label for="category" class="form-label">Category</label>
+            <select name="listing[category]" class="form-select" required>
+                <option value="">Select a category</option>
+                <option value="Rooms">Rooms</option>
+                <option value="Mountains">Mountains</option>
+                <option value="Iconic Cities">Iconic Cities</option>
+                <option value="Cabins">Cabins</option>
+                <option value="Beach">Beach</option>
+                <option value="Camping">Camping</option>
+                <option value="Adventure">Adventure</option>
+                <option value="Villas">Villas</option>
+            </select>
+            <div class="invalid-feedback">Please select a category!</div>
+        </div>
         <!-- Price -->
         <div class="row">
         <div class="mb-3 col-md-4">
