@@ -84,8 +84,30 @@ app.get("/", (req, res) => {
     res.redirect("/home");
 });
 
+//landing pages
 app.get("/home", (req, res) => {
     res.render("landing/home");
+});
+
+app.get("/privacy", (req, res) => {
+    res.render("landing/privacy.ejs");
+});
+
+app.get("/terms", (req, res) => {
+    res.render("landing/terms.ejs");
+});
+
+// socials
+app.get("/socials/facebook", (req, res) => {
+    res.render("socials/facebook.ejs");
+});
+
+app.get("/socials/instagram", (req, res) => {
+    res.render("socials/instagram.ejs");
+});
+
+app.get("/socials/linkedin", (req, res) => {
+    res.render("socials/linkedin.ejs");
 });
 
 //listing route
